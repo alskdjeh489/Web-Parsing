@@ -15,7 +15,7 @@ write_obj = csv.writer(file)
 # Data
 # Instead of numbers the website uses the following words for paging
 products = ['human-kidney', 'human-heart', 'human-lungs', 'human-liver']
-page = 1  # Used to keep track of the current page number in the file.
+page = 1  # Used to keep track of the current page number in the file
 
 # Looping through pages
 for product in products:
